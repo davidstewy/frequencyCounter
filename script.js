@@ -39,7 +39,7 @@ document.getElementById("countButton").onclick = function () {
         } else {
             wordsCount[currentWord]++;
         }
-
+    }
     
         for(words in wordsCount) {
         let spanWords = document.createElement("span");
@@ -49,4 +49,4 @@ document.getElementById("countButton").onclick = function () {
         }
 }
 
-}
+
